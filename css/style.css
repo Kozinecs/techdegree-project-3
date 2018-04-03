@@ -1,3 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bitter', serif;
+}
+
+header h1 {
+    margin: 0;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: #2D3945;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.signupl {
+    margin: 20px 2%;
+}
+.signupl h1 {
+    font-size: 1.2em;
+}
+.signupl p {
+    color: #AAAFB4;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form p,
+form h1 {
+    text-align: center;
+}
+
 .container,
 form,
 fieldset {
@@ -5,3 +47,43 @@ fieldset {
     flex-direction: column;
 }
 
+input {
+    justify-content: space-around;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    background: #EFF0F1;
+    border-radius: 5px;
+}
+
+input,
+select {
+    height: 50px;
+    margin-top: 15px;
+    flex-shrink: 0;
+
+}
+
+label {
+    margin-top: 15px;
+}
+
+input[placeholder] {
+     padding-right: 20px;
+     text-align: right;
+     font-style: italic;
+ }
+
+select:required:invalid {
+    color: #999;
+    padding-left: 20px;
+}
+option[value=””][disabled] {
+    display: none;
+}
+option {
+    color: #000;
+}

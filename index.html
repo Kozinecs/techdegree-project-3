@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Online Registration Form</title>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,9 +14,10 @@
     </header>
     <div class="container">
         <form>
-            <h1>Signup for our newsletter</h1>
-            <p>Get the latest news on how your code is doing right in your inbox</p>
-
+            <div class="signupl">
+                <h1>Signup for our newsletter</h1>
+                <p>Get the latest news on how your code is doing right in your inbox</p>
+            </div>
             <fieldset>
                 <legend>Contact Information</legend>
 
@@ -29,14 +30,15 @@
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="user_phone">
 
-                <label for="address">Street Adress</label>
+                <label for="address">Street Address</label>
                 <input type="text" id="address" name="user_address">
 
                 <label for="city">City</label>
                 <input type="text" id="city" name="user_city">
 
                 <label for="state">State</label>
-                <select id="state" name="user_state">
+                <select required id="state" name="user_state">
+                    <option value="" disabled selected>Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -96,14 +98,15 @@
 
             <fieldset>
                 <legend>Newsletter</legend>
-                <label>Select the newsletters you would like to recieve</label>
-                <input type="checkbox" id="html_news" value="news" name="user_news"><label for="html_news">HTML News</label>
-                <input type="checkbox" id="css_news" value="news" name="user_news"><label for="css_news">CSS News</label>
-                <input type="checkbox" id="js_news" value="news" name="user_news"><label for="js_news">JavaScript News</label>
+                <label> Select the newsletters you would like to recieve  </label>
+                <label for="html_news"><input type="checkbox" id="html_news" value="news" name="user_news">HTML News</label>
+                <label for="css_news"><input type="checkbox" id="css_news" value="news" name="user_news">CSS News</label>
+                <label for="js_news"><input type="checkbox" id="js_news" value="news" name="user_news">JavaScript News</label>
 
-                <label>Newsletter format</label><br>
-                <input type="radio" id="html_format" value="format" name="user_format"><label for="html_format">HTML </label>
-                <input type="radio" id="plain_format" value="format" name="user_format"><label for="plain_format">Plain Text</label>
+
+                <label>Newsletter format</label>
+                <label for="html_format"><input type="radio" id="html_format" value="format" name="user_format">HTML </label>
+                <label for="plain_format"><input type="radio" id="plain_format" value="format" name="user_format">Plain Text</label>
 
                 <label for="more_topics">Other topics you'd like to hear about</label>
                 <textarea id="more_topics" name="user_topics"></textarea>

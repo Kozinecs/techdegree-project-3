@@ -18,14 +18,14 @@
                 <h1>Signup for our newsletter</h1>
                 <p>Get the latest news on how your code is doing right in your inbox</p>
             </div>
-            <fieldset>
+            <fieldset class="main1">
                 <legend>Contact Information</legend>
 
                 <label for="name">Full Name:</label>
-                <input type="text" placeholder="Required" id="name" name="user_name">
+                <input type="text" placeholder="Required" id="name" class="name" name="user_name">
 
                 <label for="mail">Email Address:</label>
-                <input type="email" placeholder="Required" id="mail" name="user_mail">
+                <input type="email" placeholder="Required" id="mail" class="mail" name="user_mail">
 
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="user_phone">
@@ -99,14 +99,14 @@
             <fieldset>
                 <legend>Newsletter</legend>
                 <label> Select the newsletters you would like to recieve  </label>
-                <label for="html_news"><input type="checkbox" id="html_news" value="news" name="user_news">HTML News</label>
-                <label for="css_news"><input type="checkbox" id="css_news" value="news" name="user_news">CSS News</label>
-                <label for="js_news"><input type="checkbox" id="js_news" value="news" name="user_news">JavaScript News</label>
+                <div class="check_container"><input type="checkbox" id="html_news" value="news" name="user_news"><label for="html_news">HTML News</label></div>
+                <div class="check_container"><input type="checkbox" id="css_news" value="news" name="user_news"><label for="css_news">CSS News</label></div>
+                <div class="check_container"><input type="checkbox" id="js_news" value="news" name="user_news"><label for="js_news">JavaScript News</label></div>
 
 
                 <label>Newsletter format</label>
-                <label for="html_format"><input type="radio" id="html_format" value="format" name="user_format">HTML </label>
-                <label for="plain_format"><input type="radio" id="plain_format" value="format" name="user_format">Plain Text</label>
+                <div class="check_container"><input type="radio" id="html_format" value="format" name="user_format"><label for="html_format">HTML </label></div>
+                <div class="check_container"><input type="radio" id="plain_format" value="format" name="user_format"><label for="plain_format">Plain Text</label></div>
 
                 <label for="more_topics">Other topics you'd like to hear about</label>
                 <textarea id="more_topics" name="user_topics"></textarea>

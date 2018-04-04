@@ -16,8 +16,14 @@ header h1 {
     font-size: 1.4em;
 }
 
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
 .signupl {
-    margin: 20px 2%;
+    margin: 5px 0;
+    border-bottom: 4px solid black;
 }
 .signupl h1 {
     font-size: 1.2em;
@@ -28,9 +34,11 @@ header h1 {
 
 fieldset {
     border: none;
+    padding: 0 0 15px 0;
 }
 
 fieldset legend {
+    padding-top: 15px;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -45,7 +53,12 @@ form,
 fieldset {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+}
+
+.cont {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 input,
@@ -96,4 +109,33 @@ input[type="checkbox"]{
     width: auto;
     height: auto;
     margin-right: 15px;
+}
+
+input[type="text"]#zip {
+    width: 50%;
+}
+
+textarea {
+    margin-top: 15px;
+}
+
+button[type="submit"] {
+    height: 50px;
+    background-color: #4EBBB5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #999;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
 }

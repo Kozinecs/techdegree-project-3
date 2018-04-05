@@ -90,18 +90,14 @@ input:placeholder-shown{
 }
 
 input::placeholder {
-     /*padding-right: 20px;*/
      text-align: right;
-     /*font-style: italic;*/
  }
 
 select:required:invalid {
     color: #999;
     padding-left: 20px;
 }
-option[value=””][disabled] {
-    display: none;
-}
+
 option {
     color: #000;
 }
@@ -135,9 +131,6 @@ button[type="submit"] {
     border-radius: 5px;
 }
 
-/*input#zip {*/
-    /*align-self: flex-end;*/
-/*}*/
 .li_cont {
     display: flex;
     flex-direction: column;

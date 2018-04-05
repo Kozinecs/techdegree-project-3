@@ -68,7 +68,9 @@ textarea {
     border-radius: 5px;
     width: 100%;
 }
-
+input {
+    padding-left: 10px;
+}
 input,
 select {
     height: 50px;
@@ -77,13 +79,20 @@ select {
 }
 
 label {
-    margin-top: 15px;
+    margin-top: 15px
 }
 
-input[placeholder] {
-     padding-right: 20px;
+input:placeholder-shown{
+    padding-right: 20px;
+    padding-left: 10px;
+    text-align: left;
+    font-style: italic;
+}
+
+input::placeholder {
+     /*padding-right: 20px;*/
      text-align: right;
-     font-style: italic;
+     /*font-style: italic;*/
  }
 
 select:required:invalid {
@@ -111,7 +120,7 @@ input[type="checkbox"]{
 }
 
 input[type="text"]#zip {
-    width: 50%;
+    width: 30%;
 }
 
 textarea {
@@ -140,6 +149,10 @@ footer {
     color: #999;
 }
 
+input:focus {
+    border: 2px solid #46698B;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 800px;
@@ -157,8 +170,11 @@ footer {
         display: flex;
         flex-direction: row;
     }
-
+    input,
+    select {
+        width: 80%;
+    }
     .li_cont label{
-        flex-basis: 200px;
+        flex-basis: 20%;
     }
 }

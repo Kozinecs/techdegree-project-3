@@ -38,6 +38,8 @@ fieldset {
 }
 
 fieldset legend {
+    width: 100%;
+    border-top: 2px solid black;
     padding-top: 15px;
     font-size: 1.2em;
     font-weight: bold;
@@ -55,7 +57,6 @@ form {
 }
 
 .cont {
-    border-top: 2px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -69,8 +70,17 @@ textarea {
     width: 100%;
 }
 input {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
     padding-left: 10px;
 }
+
+input:focus {
+    border: 2px solid #46698B;
+    background-color: #fff;
+}
+
 input,
 select {
     height: 50px;
@@ -142,8 +152,8 @@ footer {
     color: #999;
 }
 
-input:focus {
-    border: 2px solid #46698B;
+.align-left {
+    text-align: left;
 }
 
 @media (min-width: 768px) {

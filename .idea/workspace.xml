@@ -4,7 +4,6 @@
     <list default="true" id="f47ab5de-c37b-46b9-a465-be529284cc20" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+            <state relative-caret-position="309">
+              <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -30,15 +29,10 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+            <state relative-caret-position="496">
+              <caret line="166" column="31" lean-forward="true" selection-start-line="166" selection-start-column="31" selection-end-line="166" selection-end-column="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="desktop-form.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mockups/desktop-form.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -100,7 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +115,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,12 +156,13 @@
       <workItem from="1522774710347" duration="11096000" />
       <workItem from="1522790134169" duration="3121000" />
       <workItem from="1522867863987" duration="10900000" />
-      <workItem from="1523195644828" duration="3327000" />
+      <workItem from="1523195644828" duration="3744000" />
+      <workItem from="1523296390333" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44429000" />
+    <option name="totallyTimeSpent" value="45152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -199,6 +194,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="24" lean-forward="true" selection-end-line="182" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -381,20 +390,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockups/desktop-form.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+        <state relative-caret-position="309">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        <state relative-caret-position="496">
+          <caret line="166" column="31" lean-forward="true" selection-start-line="166" selection-start-column="31" selection-end-line="166" selection-end-column="31" />
         </state>
       </provider>
     </entry>
